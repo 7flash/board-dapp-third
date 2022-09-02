@@ -2,11 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   '@ensdomains/ensjs': 3.0.0-alpha.16
+  '@fractalsoftware/random-avatar-generator': ^1.0.11
   ethers: ^5.7.0
   node-fetch: ^3.2.10
 
 dependencies:
   '@ensdomains/ensjs': 3.0.0-alpha.16
+  '@fractalsoftware/random-avatar-generator': 1.0.11
   ethers: 5.7.0
   node-fetch: 3.2.10
 
@@ -45,7 +47,7 @@ packages:
       dns-packet: 5.4.0
       ethers: 5.7.0
       graphql: 16.6.0
-      graphql-request: 5.0.0-next.5_graphql@16.6.0
+      graphql-request: 5.0.0_graphql@16.6.0
       idna-uts46-hx: 3.4.0
       traverse: 0.6.6
     transitivePeerDependencies:
@@ -369,6 +371,10 @@ packages:
       '@ethersproject/strings': 5.7.0
     dev: false
 
+  /@fractalsoftware/random-avatar-generator/1.0.11:
+    resolution: {integrity: sha512-LV+ndmma0uRkxBIukxgZU8XwH0QoTY/mhLNgLRwoUyuMmyosxdWzVW85Y4DtrCRrn3lkuLB+IQckdVfNdUxhNA==}
+    dev: false
+
   /@graphql-typed-document-node/core/3.1.1_graphql@16.6.0:
     resolution: {integrity: sha512-NQ17ii0rK1b34VZonlmT2QMJFI70m0TRwbknO/ihlbatXyaktDhN/98vBiUU6kNBPljqGqyIrl2T4nY2RpFANg==}
     peerDependencies:
@@ -690,8 +696,8 @@ packages:
       get-intrinsic: 1.1.2
     dev: false
 
-  /graphql-request/5.0.0-next.5_graphql@16.6.0:
-    resolution: {integrity: sha512-4u6R6kyxi/w1z8+AtS67Wx3vWMPL0y3Y8FU76w4sM/vNVgLkWBPYTFwi9cVSSr00aHerV1XsfdOC8+VG1I+45Q==}
+  /graphql-request/5.0.0_graphql@16.6.0:
+    resolution: {integrity: sha512-SpVEnIo2J5k2+Zf76cUkdvIRaq5FMZvGQYnA4lUWYbc99m+fHh4CZYRRO/Ff4tCLQ613fzCm3SiDT64ubW5Gyw==}
     peerDependencies:
       graphql: 14 - 16
     dependencies:
